@@ -18,7 +18,6 @@ class Calculator(QMainWindow):
         # تعریف یک LineEdit برای صفحه نمایش نتیجه
         self.result_display = QLineEdit()
         self.result_display.setReadOnly(True) # تعیین خواندنی بودن نمایش نتیجه
-        # self.result_display.setText("0")
         
         # اضافه کردن دکمه ها به layout
         # از تابع lambda برای اتصال دکمه ها به توابع استفاده می کنیم.
